@@ -1,0 +1,25 @@
+%clearfix {
+	&:after {
+	content:"";
+	display:table;
+	clear:both;
+	}
+}
+
+// center text
+
+%centered {
+	  text-align: center;
+}
+
+// text transform 
+
+%upper {
+	text-transform: uppercase;
+}
+
+// width
+
+%widge {
+	width: 33.3%;
+} 

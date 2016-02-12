@@ -1,0 +1,21 @@
+.button {
+	background-color: $green;
+	border: 3px solid #78d8c5;
+	padding: 12px 30px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+	display: table;
+	margin: 0px auto;
+	position: relative;
+
+}
+
+	.button:hover {
+	background-color: $purple;
+	border: 3px solid #e580ff;
+	
+}
+
+.one {
+	margin-top: 400px;
+}

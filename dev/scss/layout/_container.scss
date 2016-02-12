@@ -1,0 +1,29 @@
+.name {
+	margin: 80px auto;
+	color: $green;
+	@extend %upper; }
+
+	h1 {
+		@extend %upper;
+	}
+		.name p {
+			color: $grey;
+			@extend %centered;
+			font-size: 18px;
+		}
+
+.percent {
+	@extend %widge;
+	text-align: center;
+	margin: 50px 15px; }
+
+	h3 {
+		color:$green;
+		text-transform: capitalize;
+	}
+
+	.percent p {
+		color: $grey;
+		text-align: justify;
+		margin: 0px 56px;
+	}
